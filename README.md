@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    // Clase Modelo
     public class ModeloLienzo
     {
         private List<string> elementos = new List<string>(); // Lista de elementos gráficos
