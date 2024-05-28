@@ -3,14 +3,14 @@
 # Descripción de la Actividad
 Objetivo: Implementar los patrones de diseño Modelo-Vista-Controlador (MVC) y Mediador para desarrollar una aplicación de dibujo colaborativo en línea, que permita a múltiples usuarios interactuar y modificar un lienzo compartido en tiempo real.
 # Codigo:
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
 
-namespace ConsoleApp1
-{
+    namespace ConsoleApp1
+    {
     public class ModeloLienzo
     {
         private List<string> elementos = new List<string>(); // Lista de elementos gráficos
@@ -136,6 +136,6 @@ namespace ConsoleApp1
             Console.ReadLine();
         }
     }
-}
+    }
 
 ![image](https://github.com/ArmandoMontielGarcia1/Ejercicio-MVC-con-Memento-mediador-en-CSharp-o-Pyhton./assets/144396511/2e07f000-3a34-4fd3-bbc2-a73ee385da7a)
